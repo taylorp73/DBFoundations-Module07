@@ -1,0 +1,14 @@
+# Functions
+## Introduction
+This week, we’ve learned about functions. In the summary below, I will discuss user-defined functions, and explain the differences between scalar, inline, and multi-statement functions. 
+## User-Defined Functions
+User-defined functions allow users to create custom functions in SQL. They are commands to return a set of values in a database and are tools to return calculations as values (Aggregate Functions, 2022). 
+## Scalar, Inline, and Multi-Statement Functions.
+Scalar functions pull a single data point in the database (SQL Server Programming…, 2013). Tabular functions can show a table within the database. Both inline and multi-statement functions are tabular. However, an inline function will only use one select statement whereas a multi-statement function will use multiple. All of these are similar as they can be used to retrieve data within a database, however they increase in complexity for the coding, with scalar functions being the most simple, followed by inline, and then multi-statement. 
+## Conclusion
+To conclude, user-defined functions allow SQL developers to store calculations as values in SQL. These functions include the three types described above. 
+ 
+# Sources
+Aggregate Functions (2022, May 7). Retrieved from https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql?view=sql-server-ver16
+
+SQL Server Programming Part 10 - Table Valued Functions (2013, February 19). Retrieved from https://www.youtube.com/watch?v=nCAEgNxC7nU&list=PLfycUyp06LG9wAGPKBZ7poKBcbDZrmXpi&index=5
